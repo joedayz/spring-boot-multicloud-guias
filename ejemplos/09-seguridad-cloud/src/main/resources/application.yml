@@ -1,0 +1,10 @@
+# Secreto HS256: mínimo 256 bits (32 caracteres ASCII). En producción usa variable de entorno o Key Vault / Secrets Manager.
+app:
+  jwt:
+    secret: ${JWT_SECRET:0123456789abcdef0123456789abcdef0123456789abcdef01}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

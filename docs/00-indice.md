@@ -4,19 +4,19 @@ Sigue el orden para una progresión lógica, o elige un módulo según tu objeti
 
 | # | Guía | Ejemplo (código) | Tema |
 |---|------|------------------|------|
-| 1 | [Fundamentos…](01-fundamentos-configuracion.md) | [`ejemplos/01-fundamentos-configuracion`](../ejemplos/01-fundamentos-configuracion/) | Spring Boot, YAML, perfiles, beans condicionales, Spring Cloud Config |
-| 2 | [APIs REST…](02-rest-apis.md) | [`ejemplos/02-rest-api`](../ejemplos/02-rest-api/) | REST, validación, errores, Swagger/OpenAPI |
-| 3 | [Persistencia](03-persistencia.md) | [`ejemplos/03-persistencia`](../ejemplos/03-persistencia/) | JPA, transacciones, MongoDB, Redis |
+| 1 | [Fundamentos…](01-fundamentos-configuracion.md) | [`01-fundamentos-configuracion`](../ejemplos/01-fundamentos-configuracion/) | Spring Boot, YAML, perfiles, beans condicionales, Spring Cloud Config |
+| 2 | [APIs REST…](02-rest-apis.md) | [`02-rest-api`](../ejemplos/02-rest-api/) | REST, validación, errores, Swagger/OpenAPI |
+| 3 | [Persistencia](03-persistencia.md) | [`03-persistencia`](../ejemplos/03-persistencia/) | JPA, transacciones, MongoDB, Redis |
 | 4 | [Microservicios](04-microservicios.md) | [`catalog`](../ejemplos/04-microservicios-catalog/) + [`pedidos`](../ejemplos/04-microservicios-pedidos/) | Estructura, Actuator, Docker, RestTemplate/WebClient |
-| 5 | [Arquitectura…](05-arquitectura-avanzada.md) | [`ejemplos/05-arquitectura-hexagonal`](../ejemplos/05-arquitectura-hexagonal/) | Puertos/adaptadores, capas, comandos y consultas |
-| 6 | [GraphQL…](06-graphql.md) | [`ejemplos/06-graphql`](../ejemplos/06-graphql/) | Queries, mutations, comparación con REST |
-| 7 | [Spring Cloud](07-spring-cloud.md) | Eureka, Config Server, Circuit Breaker |
-| 8 | [Pruebas y calidad](08-pruebas-sonarqube.md) | JUnit, Mockito, integración, SonarQube |
-| 9 | [Seguridad en la nube](09-seguridad-cloud.md) | JWT, AWS Secrets Manager, Azure Key Vault |
-| 10 | [Serverless en Azure](10-serverless-azure.md) | Functions, CLI, despliegue |
-| 11 | [Persistencia y despliegue en Azure](11-azure-persistencia.md) | Cosmos DB, SQL, Blob, Key Vault, GitHub Actions |
-| 12 | [Serverless en AWS](12-serverless-aws.md) | Lambda, API Gateway, SAM, Cognito |
-| 13 | [Persistencia y despliegue en AWS](13-aws-persistencia.md) | DynamoDB, S3, RDS, CloudWatch, CI/CD |
+| 5 | [Arquitectura…](05-arquitectura-avanzada.md) | [`05-arquitectura-hexagonal`](../ejemplos/05-arquitectura-hexagonal/) | Puertos/adaptadores, capas, comandos y consultas |
+| 6 | [GraphQL…](06-graphql.md) | [`06-graphql`](../ejemplos/06-graphql/) | Queries, mutations, comparación con REST |
+| 7 | [Spring Cloud](07-spring-cloud.md) | [`07-spring-cloud`](../ejemplos/07-spring-cloud/) | Eureka, Config Server, Circuit Breaker |
+| 8 | [Pruebas y calidad](08-pruebas-sonarqube.md) | [`08-pruebas-sonarqube`](../ejemplos/08-pruebas-sonarqube/) | JUnit, Mockito, integración, SonarQube |
+| 9 | [Seguridad en la nube](09-seguridad-cloud.md) | [`09-seguridad-cloud`](../ejemplos/09-seguridad-cloud/) | JWT, AWS Secrets Manager, Azure Key Vault |
+| 10 | [Serverless en Azure](10-serverless-azure.md) | [`10-serverless-azure`](../ejemplos/10-serverless-azure/) | Functions, CLI, despliegue |
+| 11 | [Persistencia Azure](11-azure-persistencia.md) | [`11-azure-blob-azurite`](../ejemplos/11-azure-blob-azurite/) | Cosmos DB, SQL, Blob, Key Vault, GitHub Actions |
+| 12 | [Serverless en AWS](12-serverless-aws.md) | [`12-aws-sam-lambda`](../ejemplos/12-aws-sam-lambda/) | Lambda, API Gateway, SAM, Cognito |
+| 13 | [Persistencia AWS](13-aws-persistencia.md) | [`13-aws-dynamodb-local`](../ejemplos/13-aws-dynamodb-local/) | DynamoDB, S3, RDS, CloudWatch, CI/CD |
 
 ## Puntos clave de aprendizaje (mapa mental)
 

@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Demo Lambda Java para curso DFC
+
+Globals:
+  Function:
+    Timeout: 15
+    MemorySize: 256
+
+Resources:
+  HelloFunction:
+    Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: maven
+    Properties:
+      CodeUri: .
+      Handler: pe.joedayz.dfc.lambda.App::handleRequest
+      Runtime: java17
+      Architectures:
+        - x86_64
+      Events:
+        Api:
+          Type: HttpApi
+          Properties:
+            Path: /hello
+            Method: GET

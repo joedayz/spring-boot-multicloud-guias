@@ -1,0 +1,4 @@
+# DynamoDB local (Docker). En AWS real, quita el endpoint y usa credenciales IAM / rol.
+aws:
+  dynamodb:
+    endpoint: http://localhost:8000
