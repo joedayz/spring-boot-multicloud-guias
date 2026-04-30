@@ -1,0 +1,9 @@
+dfc:
+  app:
+    message: "Modo producción — revisa logging y secretos en el entorno real"
+  features:
+    extra-endpoint: false
+
+logging:
+  level:
+    root: WARN

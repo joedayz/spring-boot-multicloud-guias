@@ -2,14 +2,14 @@
 
 Sigue el orden para una progresión lógica, o elige un módulo según tu objetivo.
 
-| # | Guía | Tema |
-|---|------|------|
-| 1 | [Fundamentos y configuración avanzada](01-fundamentos-configuracion.md) | Spring Boot, YAML, perfiles, beans condicionales, Spring Cloud Config |
-| 2 | [APIs REST avanzadas](02-rest-apis.md) | REST, validación, errores, Swagger/OpenAPI |
-| 3 | [Persistencia](03-persistencia.md) | JPA, transacciones, MongoDB, Redis |
-| 4 | [Microservicios](04-microservicios.md) | Estructura, Actuator, Docker, RestTemplate/WebClient |
-| 5 | [Arquitectura hexagonal, limpia, DDD, CQRS](05-arquitectura-avanzada.md) | Puertos/adaptadores, capas, comandos y consultas |
-| 6 | [GraphQL con Spring](06-graphql.md) | Queries, mutations, comparación con REST |
+| # | Guía | Ejemplo (código) | Tema |
+|---|------|------------------|------|
+| 1 | [Fundamentos…](01-fundamentos-configuracion.md) | [`ejemplos/01-fundamentos-configuracion`](../ejemplos/01-fundamentos-configuracion/) | Spring Boot, YAML, perfiles, beans condicionales, Spring Cloud Config |
+| 2 | [APIs REST…](02-rest-apis.md) | [`ejemplos/02-rest-api`](../ejemplos/02-rest-api/) | REST, validación, errores, Swagger/OpenAPI |
+| 3 | [Persistencia](03-persistencia.md) | [`ejemplos/03-persistencia`](../ejemplos/03-persistencia/) | JPA, transacciones, MongoDB, Redis |
+| 4 | [Microservicios](04-microservicios.md) | [`catalog`](../ejemplos/04-microservicios-catalog/) + [`pedidos`](../ejemplos/04-microservicios-pedidos/) | Estructura, Actuator, Docker, RestTemplate/WebClient |
+| 5 | [Arquitectura…](05-arquitectura-avanzada.md) | [`ejemplos/05-arquitectura-hexagonal`](../ejemplos/05-arquitectura-hexagonal/) | Puertos/adaptadores, capas, comandos y consultas |
+| 6 | [GraphQL…](06-graphql.md) | [`ejemplos/06-graphql`](../ejemplos/06-graphql/) | Queries, mutations, comparación con REST |
 | 7 | [Spring Cloud](07-spring-cloud.md) | Eureka, Config Server, Circuit Breaker |
 | 8 | [Pruebas y calidad](08-pruebas-sonarqube.md) | JUnit, Mockito, integración, SonarQube |
 | 9 | [Seguridad en la nube](09-seguridad-cloud.md) | JWT, AWS Secrets Manager, Azure Key Vault |
@@ -31,4 +31,4 @@ Sigue el orden para una progresión lógica, o elige un módulo según tu objeti
 
 - **Una lista de reproducción** por bloque (por ejemplo: “Spring Boot — Fundamentos”, “Spring Boot — AWS”).
 - En cada vídeo: objetivos en los primeros 30 s, demo en el medio, checklist al cierre.
-- En la descripción: enlace directo al archivo `.md` de esta repo en GitHub.
+- En la descripción: enlace a la guía `.md` y a la carpeta del **ejemplo** en GitHub cuando exista.

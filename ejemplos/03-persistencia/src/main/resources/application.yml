@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: 03-persistencia
+  datasource:
+    url: jdbc:h2:mem:persist;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+---
+spring:
+  config:
+    activate:
+      on-profile: redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  cache:
+    type: redis

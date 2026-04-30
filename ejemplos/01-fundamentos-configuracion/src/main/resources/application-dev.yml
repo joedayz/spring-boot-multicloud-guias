@@ -1,0 +1,10 @@
+dfc:
+  app:
+    message: "Modo desarrollo — logging más verboso en consola"
+  features:
+    extra-endpoint: true
+
+logging:
+  level:
+    root: INFO
+    pe.joedayz.dfc: DEBUG

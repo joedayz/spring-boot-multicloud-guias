@@ -7,14 +7,16 @@ Este repositorio está pensado para acompañar vídeos de YouTube: cada guía es
 ## Cómo usar este repo
 
 1. Sigue el [índice de guías](docs/00-indice.md) en orden o salta al módulo que necesites.
-2. Marca los checklists al terminar cada sección.
-3. Si publicas vídeos, puedes enlazar la guía correspondiente en la descripción del vídeo.
+2. Donde exista **ejemplo**, entra en [`ejemplos/README.md`](ejemplos/README.md), `cd` a la carpeta y ejecuta `mvn spring-boot:run`.
+3. Marca los checklists al terminar cada sección.
+4. Si publicas vídeos, enlaza la guía y la carpeta del ejemplo en la descripción.
 
 ## Estructura
 
 | Carpeta | Contenido |
 |---------|-----------|
 | [`docs/`](docs/) | Guías paso a paso por tema |
+| [`ejemplos/`](ejemplos/) | Proyectos Maven ejecutables (uno por módulo inicial) |
 | Raíz | Este README y licencia |
 
 ## Requisitos generales
