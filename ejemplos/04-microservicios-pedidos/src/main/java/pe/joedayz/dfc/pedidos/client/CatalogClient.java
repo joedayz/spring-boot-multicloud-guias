@@ -12,7 +12,8 @@ public class CatalogClient {
 
   private final WebClient webClient;
 
-  public CatalogClient(WebClient.Builder builder, @Value("${dfc.catalog.base-url}") String baseUrl) {
+  public CatalogClient(WebClient.Builder builder,
+                       @Value("${dfc.catalog.base-url}") String baseUrl) {
     this.webClient = builder.baseUrl(baseUrl).build();
   }
 
