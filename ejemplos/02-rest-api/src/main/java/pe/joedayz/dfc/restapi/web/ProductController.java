@@ -36,7 +36,7 @@ public class ProductController {
     return productService.findAll();
   }
 
-  @GetMapping("/{id}")
+  @GetMapping("/{id}") //localhost:8080/api/products/1
   @Operation(summary = "Obtener por id")
   public ProductResponse get(@PathVariable Long id) {
     return productService.findById(id);

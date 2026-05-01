@@ -5,8 +5,9 @@ import org.springframework.boot.autoconfigure.cache.RedisCacheManagerBuilderCust
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
+import pe.joedayz.dfc.persistencia.dto.ItemView;
 import org.springframework.data.redis.cache.RedisCacheConfiguration;
-import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializationContext;
 
 @Configuration
@@ -14,9 +15,9 @@ import org.springframework.data.redis.serializer.RedisSerializationContext;
 public class RedisItemCacheConfig {
 
   @Bean
-  RedisCacheManagerBuilderCustomizer jsonValueSerializer(ObjectMapper objectMapper) {
-    GenericJackson2JsonRedisSerializer serializer =
-        new GenericJackson2JsonRedisSerializer(objectMapper);
+  RedisCacheManagerBuilderCustomizer itemViewRedisCacheCustomizer(ObjectMapper objectMapper) {
+    Jackson2JsonRedisSerializer<ItemView> serializer =
+        new Jackson2JsonRedisSerializer<>(objectMapper, ItemView.class);
     RedisCacheConfiguration cfg =
         RedisCacheConfiguration.defaultCacheConfig()
             .serializeValuesWith(

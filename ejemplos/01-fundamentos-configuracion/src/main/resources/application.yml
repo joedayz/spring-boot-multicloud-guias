@@ -2,6 +2,9 @@ spring:
   application:
     name: 01-fundamentos-configuracion
 
+  server:
+    port: ${SERVER_PORT:8080}
+
 dfc:
   app:
     message: "Configuración por defecto (sin perfil específico)"
